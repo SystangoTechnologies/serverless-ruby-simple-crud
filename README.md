@@ -1,5 +1,5 @@
 # Serverless Rest APIs
-This is a simple serverless application build over Jets framework of ruby. The application illustrate how we can create Serverless CRUD APIs using Jets framework.
+This is a simple serverless application build over Jets framework of the ruby. The application illustrates how we can create Serverless CRUD APIs using Jets framework.
 ## Requirements
 * AWS CLI
 
@@ -39,7 +39,7 @@ Your Service must be running on http://localhost:8888
 You can access the all the posts created using seed file on http://localhost:4000/posts
 
 ## Deployment
-To deploy your application to AWS, you need to just run following single command
+To deploy your application to AWS, you need to just run a single command
 
 ```ruby_on_rails
 $ jets deploy
