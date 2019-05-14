@@ -43,7 +43,7 @@ $ jets s
 ```
 Your Service must be running on http://localhost:8888
 
-You can access the all the posts created using seed file on http://localhost:4000/posts
+You can access the all the posts created using seed file on http://localhost:8888/posts
 
 ## Deployment
  Before we deploy, we need to create a database that AWS Lambda will have access to. 
