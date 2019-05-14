@@ -1,6 +1,6 @@
 Jets.application.configure do
-  config.project_name = "ruby-serverless-simple-apis"
-  config.mode = "api"
+  config.project_name = 'serverless-ruby-simple-crud'
+  config.mode = 'api'
 
   # config.prewarm.enable = true # default is true
   # config.prewarm.rate = '30 minutes' # default is '30 minutes'

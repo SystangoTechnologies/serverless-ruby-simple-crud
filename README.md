@@ -24,8 +24,8 @@ $ aws configure
 ### Step 4 - Take clone of the repository
 
 ```ruby_on_rails
-$ git clone https://gitlab.com/prateek-systango/serverless-rest-apis.git
-$ cd serverless-rest-apis
+$ git clone https://github.com/SystangoTechnologies/serverless-ruby-simple-crud.git
+$ cd serverless-ruby-simple-crud
 $ bundle install
 ```
 
@@ -46,7 +46,7 @@ Your Service must be running on http://localhost:8888
 You can access the all the posts created using seed file on http://localhost:8888/posts
 
 ## Deployment
- Before we deploy, we need to create a database that AWS Lambda will have access to. 
+ Before we deploy, we need to create a database that AWS Lambda will have access to.
  We’ll also have to create and migrate the RDS database.
 ```ruby_on_rails
 $ vim .env.development.remote # configure a remote RDS DB
